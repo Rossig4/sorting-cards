@@ -1,1 +1,55 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+html {
+  font-family: "Berkshire Swash", cursive;
+}
+body {
+  background: green;
+}
+.container {
+  margin-top: 10px;
+}
+.card {
+  display: inline-block;
+  text-align: center;
+  background: white;
+  margin: auto;
+  font-size: 60px;
+  height: 270px;
+  width: 230px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 10px 10px 20px black;
+}
+.figurasup {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 60px;
+}
+.figurainf {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 60px;
+  transform: rotate(180deg);
+}
+.numero {
+  position: absolute;
+  left: 90px;
+  top: 65px;
+  font-size: 90px;
+  font-weight: bold;
+}
+nav {
+  margin-top: 5px;
+}
+h1 {
+  font-family: "Berkshire Swash", cursive;
+  color: white;
+  text-align: left;
+  font-size: 60px;
+  font-weight: bold;
+  margin: center;
+}
